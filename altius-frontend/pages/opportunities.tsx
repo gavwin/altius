@@ -119,7 +119,7 @@ export default function Opportunities() {
         return {
           chainToUse: avalancheFuji,
           contractAddress: '0x58789ffd83d61753edA4706C57A67Dc8112d32b3',
-          destinationChainSelector: '16015286601757825753',
+          destinationChainSelector: '14767482510784806043',
           token: '0x5425890298aed601595a70AB815c96711a31Bc65'
         };
       default:
