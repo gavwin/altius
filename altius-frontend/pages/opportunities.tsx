@@ -111,7 +111,7 @@ export default function Opportunities() {
       case 'arbitrum':
         return {
           chainToUse: arbitrumSepolia,
-          contractAddress: '0x8ee3F523490459d2c424e7b8aD25C5CFb66FA1Ac',
+          contractAddress: '0xA6799504091F9e8FAF1475D6e75373061E80F1cC',
           destinationChainSelector: '3478487238524512106',
           token: '0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d'
         };
@@ -120,7 +120,7 @@ export default function Opportunities() {
           chainToUse: avalancheFuji,
           contractAddress: '0x58789ffd83d61753edA4706C57A67Dc8112d32b3',
           destinationChainSelector: '14767482510784806043',
-          token: '0x5425890298aed601595a70AB815c96711a31Bc65'
+          token: '0x58789ffd83d61753edA4706C57A67Dc8112d32b3'
         };
       default:
         return {
