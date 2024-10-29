@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { TransactionButton } from "thirdweb/react";
 import { getContract } from "thirdweb";
-import { avalanche, arbitrum, ethereum, sepolia, bsc, polygon, avalancheFuji } from "thirdweb/chains";
+import { avalanche, arbitrum, arbitrumSepolia, ethereum, sepolia, bsc, polygon, avalancheFuji } from "thirdweb/chains";
 import { createThirdwebClient, prepareContractCall } from "thirdweb";
 import ChainSelector from '../components/ChainSelector';
 import TokenSelector from '../components/TokenSelector';
@@ -110,7 +110,7 @@ export default function Opportunities() {
         };
       case 'arbitrum':
         return {
-          chainToUse: arbitrum,
+          chainToUse: arbitrumSepolia,
           contractAddress: '0x8ee3F523490459d2c424e7b8aD25C5CFb66FA1Ac',
           destinationChainSelector: '3478487238524512106',
           token: '0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d'
